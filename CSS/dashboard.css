@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+header{
+    display: flex;
+    height:5vw;
+    background-color: #279486;
+    box-shadow:  0px 3px 3px #228276,
+                0px 1px 1px #000;;
+}
+.logo{
+    width:7.5vw;
+    margin-top: 0.8vw;
+    margin-left: 0.8vw;
+    padding:0vw;
+    height: auto;
+}
+.user{
+    display: flex;
+    margin-left: 66vw;
+    float: right;
+    text-align: center;
+}
+.user img{
+    width: 2vw;
+    height: 2vw;
+    margin-top: 1.5vw;
+}
+.user h4{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    color: white;
+   
+}
+.user button{
+    padding: 0.3vw 1vw;
+    padding-bottom: 1.5vw;
+    height: 2vw;
+    margin-top: 1.5vw;
+    margin-left: 2.6vw;
+    border: none;
+    outline: none;
+    border-radius: .5vw;
+    background: linear-gradient(145deg, #2a9e8f, #238579);
+    box-shadow:  2px 8px 7px #1b665c,
+             -2px -1px 7px #33c2b0;
+    font-size: 1.1vw;
+    font-weight:450;
+}
+.user button:hover{
+    background: #279486;
+    box-shadow: inset 2px 2px 4px #1b665c,
+            inset -.5px -1px 4px #33c2b0;
+}
+
+
+header>b{
+    padding-top:1.2vw;
+    font-weight: normal;
+    font-size: 23px;
+    font-family:'Stick';
+}
+#color{
+    color:#fd819b;
+    border: none;
+}
+
+.containner{
+    margin-top:8vw
+}
+#devicename{
+    color:#e07a5f;
+}
+h1{
+    margin-top: 5vw;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 2px solid #aaa8a8;
+    text-align: left;
+    padding: 8px;
+    font-size: 1.5vw;
+  }
+  th:nth-child(even){
+      color:#e07a5f;
+      font-weight: bolder;
+      text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #c7c4c4;
+  }
