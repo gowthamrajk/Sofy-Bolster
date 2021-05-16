@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="CSS/login.css">
+
+</head>
+<body>
+<div class="outer">
+    <center>
+ <div class="login">
+     <img src="./Image/logo_eye.png" alt="img" id="logo">
+     <h1><span id='color'>Sofy</span> Bolster</h1>
+     <input type="email" placeholder="UserName" id="mail" class="common" required><br>
+     <input type="password" onmouseover="showPass()" onmouseout="hidePass()" placeholder="PassWord" id="password" class="common" required><br>
+     <h5>Choose a Zone:</h5>
+     <select id="zone" name="Zone">
+        <option value="Coimbatore_South">Coimbatore-South</option>
+        <option value="Coimbatore_North">Coimbatore-North</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Madurai">Madurai</option>
+    </select>
+     <button class="button" onclick="valiedUser()">login</button>
+ </div>
+ </center>
+ </div>
+ <script src='./Js/login.js'></script>
+</body>
+</html>
